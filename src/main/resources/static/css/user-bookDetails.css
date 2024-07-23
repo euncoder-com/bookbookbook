@@ -1,0 +1,78 @@
+@font-face {
+			     font-family: 'DungGeunMo';
+			     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+			     font-weight: normal;
+			     font-style: normal;
+		}
+
+		body {
+			font-family: 'DungGeunMo';
+			font-size: 14px;
+		}
+		a{
+			text-decoration: none;
+		}
+	    .container {
+	        padding-top: 20px;
+			
+	    }
+	    .nav-tabs .nav-link {
+	        border: none;
+	        font-size: 1.2rem;
+			margin-bottom: 20px;
+	    }
+	    .nav-tabs .nav-link.active {
+	        border-bottom: 3px solid #e74c3c;
+	    }
+		.nav-link{
+			color:rgb(0, 0, 0);
+		}
+	    .rating {
+	        display: flex;
+	        align-items: center;
+	    }
+	    .rating span {
+	        font-size: 1.5rem;
+	        color: gold;
+	    }
+	    .rating input {
+	        display: none;
+	    }
+	    .rating label {
+	        font-size: 2rem;
+	        color: lightgray;
+	        cursor: pointer;
+	    }
+	    .rating input:checked ~ label {
+	        color: gold;
+	    }
+	    .rating input:hover ~ label {
+	        color: gold;
+	    }
+	    .rating input:hover ~ label:hover ~ label {
+	        color: lightgray;
+	    }
+		#wish-book-btn:hover{
+			border: 3px solid #e74c3c;
+		}
+		
+		#update-btn:hover:hover{
+			border: 3px solid black;				
+				}
+				
+				#save-btn:hover{
+					border: 3px solid black;				
+				}
+				
+				#save-as-reading-book-btn:hover{
+					border: 3px solid black;			
+				}
+		#update-btn, #save-btn, #save-as-reading-book-btn{
+			background-color: #e74c3c;
+			color: white;
+		}
+		
+		#save-btn, #save-as-reading-book-btn{
+			display: flex;
+			justify-content: space-evenly;
+		}
